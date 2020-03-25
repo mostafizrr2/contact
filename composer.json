@@ -1,0 +1,27 @@
+{
+    "name": "mostafiz/contact",
+    "description": "this will generate contact feature",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mostafizrr2",
+            "email": "mostafizrrahman2@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mostafiz\\Contact\\": "src/"
+        }
+    },
+    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mostafiz\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
